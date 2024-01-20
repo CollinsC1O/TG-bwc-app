@@ -114,7 +114,7 @@ export default function Home() {
 
               <h2 className="bg-gray-300 hover:shadow-md px-4 py-2 border-1 rounded" style={{textAlign: 'center', marginBottom: '10px', marginLeft: "70px", marginRight: "70px", }}>Add Student</h2>
 
-              <form id="studentForm" onSubmit={addStudent}>
+              <form style={{marginLeft: '10px', marginRight: '10px', marginBottom: '10px'}} id="studentForm" onSubmit={addStudent}>
                 <label>
                     Name:
                     <input type="text" name="name" style={{marginLeft: '30px', marginBottom: '10px'}}/>
