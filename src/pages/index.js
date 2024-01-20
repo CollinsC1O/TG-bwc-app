@@ -2,7 +2,7 @@ import Image from "next/image";
 import { connect, disconnect } from "get-starknet";
 import { Inter } from "next/font/google";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";9
 
 const inter = Inter({ subsets: ["latin"] });
 
